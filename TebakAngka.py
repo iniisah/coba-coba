@@ -3,18 +3,18 @@ import random as rd
 angka = rd.randrange(0,100)
 jumlah = 0
 
-print("***batas menebak 4 kali***\n")
+print("batas tebak emfat kali sjhh\n")
 while True:
-    masukan = int(input("masukkan angka: "))
+    masukan = int(input("berapa cuyy : "))
     jumlah +=1
     if jumlah == 4 :
-        print("game over!")
-        print(f"angkanya adalah {angka}")
+        print("kalah luhk!")
+        print(f"yang bener {angka} anjay")
         break
     if masukan > angka :
-        print("terlalu besar")
+        print("kegedean")
     elif masukan < angka :
-        print("terlalu kecil")
+        print("kekecilan dah")
     elif masukan == angka :
-        print("selamat tebakanmu benar!")
+        print("bener bejirr!")
         break  
